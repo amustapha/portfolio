@@ -1,28 +1,119 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <hero />
+    <links title="Some of the things i know" :links="techs" />
+    <timeline />
+    <links title="How you can reach me" :links="contacts" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Hero from "./components/Hero";
+import Links from "./components/Links";
+import Timeline from "./components/Timeline/index";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Timeline,
+    Links,
+    Hero
+
+  },
+  data () {
+    return {
+      techs: [
+        {
+          icon: 'icon-python',
+          text: 'Python'
+        },
+        {
+          icon: 'icon-django',
+          text: 'Django'
+        },
+        {
+          icon: 'icon-javascript',
+          text: 'Javascript'
+        },
+        {
+          icon: 'icon-flask',
+          text: 'Flask'
+        },
+        {
+          icon: 'icon-vue-dot-js',
+          text: 'Vue JS'
+        },
+        {
+          icon: 'icon-amazonaws',
+          text: 'AWS'
+        },
+        {
+          icon: 'icon-mongodb',
+          text: 'MongoDB'
+        },
+        {
+          icon: 'icon-googlecloud',
+          text: 'GCP'
+        },
+        {
+          icon: 'icon-java',
+          text: 'Java'
+        },
+        {
+          icon: 'icon-c',
+          text: 'C/C++'
+        },
+        {
+          icon: 'icon-docker',
+          text: 'Docker'
+        },
+        {
+          icon: 'icon-jira',
+          text: 'Jira'
+        }
+      ],
+      contacts: [
+        {
+          icon: 'icon-gmail',
+          text: 'Email',
+          target: 'mailto:abdulhakeemmustapha@gmail.com?body=Hi Abdulhakeem, '
+        },
+        {
+          icon: 'icon-twitter',
+          text: 'Twitter',
+          target: 'https://twitter.com/_amustapha'
+        },
+        {
+          icon: 'icon-linkedin',
+          text: 'LinkedIn',
+          target: 'https://linkedin.com/in/abdulhakeem-mustapha'
+        },
+        {
+          icon: 'icon-github',
+          text: 'Github',
+          target: 'https://github.com/aamustapha'
+        },
+        {
+          icon: 'icon-medium',
+          text: 'Medium',
+          target: 'https://medium.com/@_amustapha'
+        },
+        {
+          icon: 'icon-quora',
+          text: 'Quora',
+          target: 'https://www.quora.com/profile/Abdulhakeem-Mustapha-1'
+        }
+      ]
+
+    }
   }
 }
 </script>
-
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  .container-fluid {
+    max-width: 1333px;
+    display: block;
+    margin-top: 64px;
+    margin-bottom: 32px;
+  }
 </style>
