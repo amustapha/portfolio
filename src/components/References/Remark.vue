@@ -1,5 +1,5 @@
 <template>
-    <figure class="carousel-item bg-gray">
+    <figure class="carousel-item bg-secondary">
         <blockquote>
             <slot></slot>
         </blockquote>

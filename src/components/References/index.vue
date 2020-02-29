@@ -1,5 +1,5 @@
 <template>
-    <div class="container bg-gray p-2 mt-2">
+    <div class="container bg-secondary p-2 mt-2">
         <div class="container container-fluid">
             <h6 class="text-bold text-uppercase text-center">Some people I've worked with</h6>
             <div class="carousel">

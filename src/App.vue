@@ -8,6 +8,7 @@
     <references />
     <projects/>
     <links title="What I do in my spare time" :links="hobbies" />
+    <about />
   </div>
 </template>
 
@@ -18,10 +19,12 @@ import Timeline from "./components/Timeline";
 import References from "./components/References";
 import Education from "./components/Education/index";
 import Projects from "./components/Projects/index";
+import About from "./components/About";
 
 export default {
   name: 'App',
   components: {
+    About,
     Projects,
     Education,
     References,
