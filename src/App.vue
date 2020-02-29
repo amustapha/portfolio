@@ -97,7 +97,7 @@ export default {
         {
           icon: 'icon-hashnode',
           text: 'Blog',
-          target: 'https://blog.amustapha.name.ng'
+          target: 'https://blog.amustapha.com'
         },
         {
           icon: 'icon-udemy',

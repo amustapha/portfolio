@@ -31,6 +31,6 @@
 <style scoped>
 
     .col {
-        min-width: 360px;
+        min-width: 340px;
     }
 </style>

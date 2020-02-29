@@ -15,7 +15,13 @@
             <a href="https://docs.google.com/document/d/1xElMvl-O5xN6oA5U989hwJlEwEseLTA-QxpNFkxs73Q/edit?usp=sharing"
                target="_blank"
                class="btn mt-2 text-uppercase text-bold">Checkout my resume</a>
+            <div class="lnks">
+                <a href="https://blog.amustapha.com" class="text-light">My Blog</a>
+                <a href="mailto:abdulhakeemmustapha@gmail.com" class="text-light hide-md">abdulhakeemmustapha@gmail.com</a>
+                <a href="tel:+2347067577058" class="text-light hide-md">+234 706 757 7058</a>
+            </div>
         </div>
+
     </div>
 </template>
 
@@ -52,6 +58,16 @@
         z-index: 1;
     }
 
+    .lnks {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 24px;
+    }
+
+    .lnks a {
+        padding: 16px;
+    }
     .front {
         z-index: 20;
     }
