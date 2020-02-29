@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('/fonts/icomoon.eot?h28pf0');
-  src:  url('/fonts/icomoon.eot?h28pf0#iefix') format('embedded-opentype'),
-    url('/fonts/icomoon.ttf?h28pf0') format('truetype'),
-    url('/fonts/icomoon.woff?h28pf0') format('woff'),
-    url('/fonts/icomoon.svg?h28pf0#icomoon') format('svg');
+  src:  url('/fonts/icomoon.eot?gmrpzc');
+  src:  url('/fonts/icomoon.eot?gmrpzc#iefix') format('embedded-opentype'),
+    url('/fonts/icomoon.ttf?gmrpzc') format('truetype'),
+    url('/fonts/icomoon.woff?gmrpzc') format('woff'),
+    url('/fonts/icomoon.svg?gmrpzc#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -218,6 +218,18 @@
 }
 .icon-zendesk:before {
   content: "\e925";
+}
+.icon-undo2:before {
+  content: "\e967";
+}
+.icon-redo2:before {
+  content: "\e968";
+}
+.icon-forward:before {
+  content: "\e969";
+}
+.icon-reply:before {
+  content: "\e96a";
 }
 .icon-bubbles4:before {
   content: "\e970";
