@@ -69,7 +69,7 @@
             const context = this
             setInterval(function () {
                 context.$refs[`c-${(context.active++ % 4) + 1}`].click()
-            }, 5000)
+            }, 15000)
         }
     }
 </script>
