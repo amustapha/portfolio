@@ -3,7 +3,7 @@
         <div class="card">
 
             <div class="card-header">
-                <div class="card-title h5">{{title}}</div>
+                <div class="card-title h5">{{title}} <a :href="link" class="icon-share" v-if="link" target="_blank"></a> </div>
                 <small class="card-subtitle text-gray">{{ summary }}</small>
             </div>
             <div class="card-body">
@@ -24,7 +24,7 @@
 <script>
     export default {
         name: "SingleProject",
-        props: ['icons', 'title', 'summary']
+        props: ['icons', 'title', 'summary', 'link']
     }
 </script>
 

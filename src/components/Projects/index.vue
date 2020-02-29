@@ -4,6 +4,7 @@
         <div class="columns">
             <single-project
                     title="Lissafi"
+                    link="https://app.lissafi.com"
                     summary="Accounting software for small & medium businesses"
                     :icons="['icon-django', 'icon-vue-dot-js', 'icon-amazonaws', 'icon-mysql', 'icon-node-dot-js', 'icon-flask']">
                 <p>
@@ -13,6 +14,7 @@
             </single-project>
             <single-project
                     title="Ji's Kitchen"
+                    link="https://jiskitchen.com"
                     summary="On demand food delivery service"
                     :icons="['icon-django', 'icon-vue-dot-js', 'icon-googlecloud']">
                 <p>
@@ -23,6 +25,7 @@
             </single-project>
             <single-project
                     title="Pipersoft"
+                    link="https://piper.com.ng"
                     summary="Bookkeeping & Inventory management software"
                     :icons="['icon-django', 'icon-vue-dot-js', 'icon-googlecloud', 'icon-couchdb-icon', 'icon-pouchdb']">
                 <p>
@@ -43,6 +46,7 @@
             </single-project>
             <single-project
                     title="Farmerinsuit"
+                    link="https://farmerinsuit.com"
                     summary="Crowdfunding platform for agriculture"
                     :icons="['icon-django', 'icon-googlecloud', 'icon-bootstrap']">
                 <p>
