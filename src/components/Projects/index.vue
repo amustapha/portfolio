@@ -33,9 +33,9 @@
             </single-project>
 
             <single-project
-                    title="Moshoyewole"
+                    title="Mosh Oyewole"
                     summary="Crowdfunding platform for election"
-                    :icons="['icon-html5', 'icon-css3', 'icon-php', 'icon-bootstrap']">
+                    :icons="['icon-html5', 'icon-css3', 'icon-php', 'icon-bootstrap', 'icon-cpanel']">
                 <p>
                     Gofund me and other cause crowdfunding platforms are not open for Nigerians, we developed a campaign
                     site including functionaliy for collecting donations.
