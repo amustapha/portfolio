@@ -1,7 +1,7 @@
 <template>
     <div class="container bg-gray p-2 mt-2">
         <div class="container container-fluid">
-            <h6 class="text-bold text-uppercase text-center">People I've worked with</h6>
+            <h6 class="text-bold text-uppercase text-center">Some people I've worked with</h6>
             <div class="carousel">
                 <!-- carousel locator -->
                 <input class="carousel-locator" id="slide-1" type="radio" name="carousel-radio" hidden="" checked="">
@@ -42,12 +42,11 @@
                     </remark>
                 </div>
                 <!-- carousel navigation -->
-
                 <div class="carousel-nav">
-                    <label class="nav-item text-hide text-dark c-hand" for="slide-1"></label>
-                    <label class="nav-item text-hide text-dark c-hand" for="slide-2">2</label>
-                    <label class="nav-item text-hide text-dark c-hand" for="slide-3">3</label>
-                    <label class="nav-item text-hide text-dark c-hand" for="slide-4">4</label>
+                    <label class="nav-item text-hide c-hand text-dark" for="slide-1" ref="c-1">1</label>
+                    <label class="nav-item text-hide text-dark c-hand" for="slide-2" ref="c-2">2</label>
+                    <label class="nav-item text-hide text-dark c-hand" for="slide-3" ref="c-3">3</label>
+                    <label class="nav-item text-hide text-dark c-hand" for="slide-4" ref="c-4">4</label>
                 </div>
             </div>
         </div>
@@ -60,7 +59,19 @@
 
     export default {
         name: "References",
-        components: {Remark}
+        components: {Remark},
+        data () {
+            return {
+                active: 1
+            }
+        },
+        mounted() {
+            const context = this
+            setInterval(function () {
+                console.log(context.active)
+                context.$refs[`c-${(++context.active % 4) + 1}`].click()
+            }, 5000)
+        }
     }
 </script>
 
