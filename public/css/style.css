@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('/fonts/icomoon.eot?gmrpzc');
-  src:  url('/fonts/icomoon.eot?gmrpzc#iefix') format('embedded-opentype'),
-    url('/fonts/icomoon.ttf?gmrpzc') format('truetype'),
-    url('/fonts/icomoon.woff?gmrpzc') format('woff'),
-    url('/fonts/icomoon.svg?gmrpzc#icomoon') format('svg');
+  src:  url('/fonts/icomoon.eot?e8qy4g');
+  src:  url('/fonts/icomoon.eot?e8qy4g#iefix') format('embedded-opentype'),
+    url('/fonts/icomoon.ttf?e8qy4g') format('truetype'),
+    url('/fonts/icomoon.woff?e8qy4g') format('woff'),
+    url('/fonts/icomoon.svg?e8qy4g#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-pouchdb .path1:before {
+  content: "\e918";
+  color: rgb(116, 204, 156);
+}
+.icon-pouchdb .path2:before {
+  content: "\e934";
+  margin-left: -0.775390625em;
+  color: rgb(116, 212, 155);
+}
+.icon-couchdb-icon:before {
+  content: "\e941";
+  color: #e42528;
+}
 .icon-amazonaws:before {
   content: "\e900";
 }

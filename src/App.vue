@@ -6,6 +6,7 @@
     <links title="How you can reach me" :links="contacts" />
     <education />
     <references />
+    <projects/>
   </div>
 </template>
 
@@ -15,10 +16,12 @@ import Links from "./components/Links";
 import Timeline from "./components/Timeline";
 import References from "./components/References";
 import Education from "./components/Education/index";
+import Projects from "./components/Projects/index";
 
 export default {
   name: 'App',
   components: {
+    Projects,
     Education,
     References,
     Timeline,
