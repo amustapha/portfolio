@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('/fonts/icomoon.eot?e8qy4g');
-  src:  url('/fonts/icomoon.eot?e8qy4g#iefix') format('embedded-opentype'),
-    url('/fonts/icomoon.ttf?e8qy4g') format('truetype'),
-    url('/fonts/icomoon.woff?e8qy4g') format('woff'),
-    url('/fonts/icomoon.svg?e8qy4g#icomoon') format('svg');
+  src:  url('/fonts/icomoon.eot?934iiw');
+  src:  url('/fonts/icomoon.eot?934iiw#iefix') format('embedded-opentype'),
+    url('/fonts/icomoon.ttf?934iiw') format('truetype'),
+    url('/fonts/icomoon.woff?934iiw') format('woff'),
+    url('/fonts/icomoon.svg?934iiw#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,49 +25,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-pouchdb .path1:before {
-  content: "\e918";
-  color: rgb(116, 204, 156);
-}
-.icon-pouchdb .path2:before {
-  content: "\e934";
-  margin-left: -0.775390625em;
-  color: rgb(116, 212, 155);
-}
 .icon-couchdb-icon:before {
-  content: "\e941";
+  content: "\e935";
   color: #e42528;
 }
 .icon-amazonaws:before {
   content: "\e900";
 }
-.icon-anaconda:before {
-  content: "\e901";
-  color: #42b029;
-}
-.icon-angular:before {
-  content: "\e902";
-  color: #dd0031;
-}
-.icon-apple:before {
-  content: "\e903";
-  color: #999;
-}
-.icon-atlassian:before {
-  content: "\e904";
-  color: #0052cc;
-}
-.icon-atom:before {
-  content: "\e905";
-  color: #66595c;
-}
 .icon-audible:before {
   content: "\e906";
   color: #f8991c;
-}
-.icon-bitbucket:before {
-  content: "\e907";
-  color: #0052cc;
 }
 .icon-bootstrap:before {
   content: "\e908";
@@ -77,16 +44,13 @@
   content: "\e909";
   color: #a8b9cc;
 }
-.icon-confluence:before {
-  content: "\e90a";
+.icon-canva:before {
+  content: "\e936";
+  color: #00c4cc;
 }
 .icon-cpanel:before {
   content: "\e90b";
   color: #ff6c2c;
-}
-.icon-cplusplus:before {
-  content: "\e90c";
-  color: #00599c;
 }
 .icon-css3:before {
   content: "\e90d";
@@ -99,16 +63,8 @@
   content: "\e90f";
   color: #1488c6;
 }
-.icon-facebook:before {
-  content: "\e910";
-  color: #1877f2;
-}
 .icon-flask:before {
   content: "\e926";
-}
-.icon-flutter:before {
-  content: "\e911";
-  color: #02569b;
 }
 .icon-git:before {
   content: "\e927";
@@ -120,10 +76,6 @@
 .icon-gmail:before {
   content: "\e913";
   color: #d14836;
-}
-.icon-google:before {
-  content: "\e914";
-  color: #4285f4;
 }
 .icon-googlecloud:before {
   content: "\e915";
@@ -141,9 +93,6 @@
   content: "\e916";
   color: #e34f26;
 }
-.icon-inkscape:before {
-  content: "\e917";
-}
 .icon-java:before {
   content: "\e92a";
   color: #007396;
@@ -152,15 +101,8 @@
   content: "\e92b";
   color: #f7df1e;
 }
-.icon-jetbrains:before {
-  content: "\e931";
-}
 .icon-jira:before {
   content: "\e919";
-}
-.icon-kotlin:before {
-  content: "\e930";
-  color: #0095d5;
 }
 .icon-linkedin:before {
   content: "\e91a";
@@ -181,10 +123,6 @@
   content: "\e91d";
   color: #e50914;
 }
-.icon-netlify:before {
-  content: "\e91e";
-  color: #00c7b7;
-}
 .icon-node-dot-js:before {
   content: "\e91f";
   color: #393;
@@ -192,10 +130,6 @@
 .icon-php:before {
   content: "\e920";
   color: #777bb4;
-}
-.icon-postgresql:before {
-  content: "\e92f";
-  color: #336791;
 }
 .icon-python:before {
   content: "\e921";
@@ -209,17 +143,13 @@
   content: "\e923";
   color: #fe7a16;
 }
-.icon-twilio:before {
-  content: "\e92c";
-  color: #f22f46;
-}
 .icon-twitter:before {
   content: "\e92d";
   color: #1da1f2;
 }
-.icon-visualstudiocode:before {
-  content: "\e932";
-  color: #007acc;
+.icon-udemy:before {
+  content: "\e937";
+  color: #ec5252;
 }
 .icon-vue-dot-js:before {
   content: "\e924";
@@ -228,27 +158,6 @@
 .icon-ycombinator:before {
   content: "\e933";
   color: #f0652f;
-}
-.icon-zendesk:before {
-  content: "\e925";
-}
-.icon-undo2:before {
-  content: "\e967";
-}
-.icon-redo2:before {
-  content: "\e968";
-}
-.icon-forward:before {
-  content: "\e969";
-}
-.icon-reply:before {
-  content: "\e96a";
-}
-.icon-bubbles4:before {
-  content: "\e970";
-}
-.icon-user:before {
-  content: "\e971";
 }
 .icon-checkmark:before {
   content: "\ea10";

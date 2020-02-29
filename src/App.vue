@@ -7,6 +7,7 @@
     <education />
     <references />
     <projects/>
+    <links title="What I do in my spare time" :links="hobbies" />
   </div>
 </template>
 
@@ -57,8 +58,8 @@ export default {
           text: 'AWS'
         },
         {
-          icon: 'icon-mongodb',
-          text: 'MongoDB'
+          icon: 'icon-git',
+          text: 'GIT'
         },
         {
           icon: 'icon-googlecloud',
@@ -79,6 +80,32 @@ export default {
         {
           icon: 'icon-jira',
           text: 'Jira'
+        }
+      ],
+      hobbies: [
+        {
+          icon: 'icon-audible',
+          text: 'Books'
+        },
+        {
+          icon: 'icon-netflix',
+          text: 'Movies'
+        },
+        {
+          icon: 'icon-hashnode',
+          text: 'Blog',
+          target: 'https://blog.amustapha.name.ng'
+        },
+        {
+          icon: 'icon-udemy',
+          text: 'Learning'
+        },
+        {
+          icon: 'icon-ycombinator',
+          text: 'Startup School' },
+        {
+          icon: 'icon-stackoverflow',
+          text: 'Support others'
         }
       ],
       contacts: [
