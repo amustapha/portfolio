@@ -3,7 +3,7 @@
     <hero />
     <links title="Some of the things i know" :links="techs" />
     <timeline />
-    <links title="How you can reach me" :links="contacts" />
+    <links title="Click your favorite medium to reach me below" :links="contacts" />
     <education />
     <references />
     <projects/>

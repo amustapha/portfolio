@@ -13,7 +13,7 @@
             </p>
             <a href="https://docs.google.com/document/d/1xElMvl-O5xN6oA5U989hwJlEwEseLTA-QxpNFkxs73Q/edit?usp=sharing"
                target="_blank"
-               class="btn mt-2">Checkout my resume</a>
+               class="btn mt-2 text-uppercase text-bold">Checkout my resume</a>
         </div>
     </div>
 </template>
