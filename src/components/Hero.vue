@@ -3,10 +3,14 @@
         <div class="hero-body text-center px-2 mx-2">
             <img src="my-pic-no-bg.png" class="me" height="460px"/>
             <h1 class="text-bold front">Abdulhakeem Adetunji Mustapha</h1>
-            <p class="my-about front mb-2 pb-2">Creative and result-oriented Software Engineer with over 6 years of
+            <p class="my-about front mb-2 pb-2" v-if="show == 1">Creative and result-oriented Software Engineer with over 6 years of
                 experience building amazing web and
                 mobile applications, coordinating cross-functional teams and easily communicating complex technical
                 details to non-technical stakeholders.</p>
+            <p class="my-about front mb-2 pb-2" v-else>
+                I'm a backend developer who is not scared of the frontend. With over 6 years experience in
+                building and deploying mobile and web applications, I've become a real jack of all trade, master of pun.
+            </p>
             <a href="https://docs.google.com/document/d/1xElMvl-O5xN6oA5U989hwJlEwEseLTA-QxpNFkxs73Q/edit?usp=sharing"
                target="_blank"
                class="btn mt-2">Checkout my resume</a>
@@ -16,7 +20,12 @@
 
 <script>
     export default {
-        name: "Hero"
+        name: "Hero",
+        data () {
+            return {
+                show: Math.ceil(Math.random() * 2)
+            }
+        }
     }
 </script>
 
