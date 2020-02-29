@@ -4,7 +4,7 @@
             <h6 class="text-bold text-uppercase text-center">Some people I've worked with</h6>
             <div class="carousel">
                 <!-- carousel locator -->
-                <input class="carousel-locator" id="slide-1" type="radio" name="carousel-radio" hidden="" checked="">
+                <input class="carousel-locator" id="slide-1" type="radio" name="carousel-radio" hidden="" checked>
                 <input class="carousel-locator" id="slide-2" type="radio" name="carousel-radio" hidden="">
                 <input class="carousel-locator" id="slide-3" type="radio" name="carousel-radio" hidden="">
                 <input class="carousel-locator" id="slide-4" type="radio" name="carousel-radio" hidden="">
@@ -62,14 +62,13 @@
         components: {Remark},
         data () {
             return {
-                active: 1
+                active: 0
             }
         },
         mounted() {
             const context = this
             setInterval(function () {
-                console.log(context.active)
-                context.$refs[`c-${(++context.active % 4) + 1}`].click()
+                context.$refs[`c-${(context.active++ % 4) + 1}`].click()
             }, 5000)
         }
     }
@@ -88,13 +87,25 @@
 
     @media (min-width: 600px) {
         .carousel-container::before {
-            padding-bottom: 340px;
+            padding-bottom: 340px !important;
         }
     }
 
     @media (max-width: 600px) {
         .carousel-container::before {
-            padding-bottom: 380px;
+            padding-bottom: 380px !important;
+        }
+    }
+
+   @media (max-width: 500px) {
+        .carousel-container::before {
+            padding-bottom: 440px !important;
+        }
+    }
+
+   @media (max-width: 400px) {
+        .carousel-container::before {
+            padding-bottom: 512px !important;
         }
     }
 
