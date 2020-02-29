@@ -4,17 +4,23 @@
     <links title="Some of the things i know" :links="techs" />
     <timeline />
     <links title="How you can reach me" :links="contacts" />
+    <education />
+    <references />
   </div>
 </template>
 
 <script>
 import Hero from "./components/Hero";
 import Links from "./components/Links";
-import Timeline from "./components/Timeline/index";
+import Timeline from "./components/Timeline";
+import References from "./components/References";
+import Education from "./components/Education/index";
 
 export default {
   name: 'App',
   components: {
+    Education,
+    References,
     Timeline,
     Links,
     Hero
