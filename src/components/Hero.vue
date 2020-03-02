@@ -1,7 +1,7 @@
 <template>
     <div class="hero hero-lg bg-primary  px-2">
         <div class="hero-body text-center px-2 mx-2">
-            <img src="my-pic-no-bg.png" class="me" height="460px"/>
+            <img src="my-pic-no-bg.webp" class="me" height="460px" alt="My picture"/>
             <h1 class="text-bold front">Abdulhakeem Adetunji Mustapha</h1>
             <p class="my-about front mb-2 pb-2" v-if="show == 1">Creative and result-oriented Software Engineer with
                 over 6 years of
@@ -10,19 +10,21 @@
                 details to non-technical stakeholders.</p>
             <p class="my-about front mb-2 pb-2" v-else>
                 I'm a backend developer who is not scared of the frontend. With over 6 years experience in
-                building and deploying mobile and web applications, I've become a real jack of all trade, master of pun.
+                building and deploying mobile and web applications, I've become a real jack of all trade, master of pun.<br/>
+                Not to brag, I consider myself to be among the top 1% of the best 1%.
             </p>
             <a href="https://docs.google.com/document/d/1xElMvl-O5xN6oA5U989hwJlEwEseLTA-QxpNFkxs73Q/edit?usp=sharing"
                target="_blank"
+               rel="noopener"
                class="btn mt-2 text-uppercase text-bold bg-dark btn-primary">Checkout my resume</a>
 
             <a href="mailto:abdulhakeemmustapha@gmail.com?subject=I've a Project for you&body=Hi Abdul,"
-               class="btn mt-2 text-bold mx-2 text-uppercase" target="_blank">
+               class="btn mt-2 text-bold mx-2 text-uppercase" target="_blank" rel="noopener">
                 Hire Me
             </a>
             <div class="lnks">
-                <a href="https://blog.amustapha.com" class="text-light">My Blog</a>
-                <a href="mailto:abdulhakeemmustapha@gmail.com" class="text-light hide-md">
+                <a href="https://blog.amustapha.com" class="text-light" rel="noopener">My Blog</a>
+                <a href="mailto:abdulhakeemmustapha@gmail.com" class="text-light hide-md" rel="noopener">
                     abdulhakeemmustapha@gmail.com
                 </a>
                 <a href="tel:+2347067577058" class="text-light">+234 706 757 7058</a>

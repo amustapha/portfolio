@@ -1,7 +1,7 @@
 <template>
-    <div class="timeline-item" id="timeline-example-2">
+    <div class="timeline-item" >
         <div class="timeline-left">
-            <a :class="latest? '': 'timeline-icon icon-lg'" href="#timeline-example-2">
+            <a :class="latest? '': 'timeline-icon icon-lg'">
                 <i :class="latest ? 'timeline-icon' :  'icon icon-checkmark'"></i>
             </a>
         </div>
