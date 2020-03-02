@@ -3,7 +3,7 @@
         <div class="card">
 
             <div class="card-header">
-                <div class="card-title h5">{{title}} <a :href="link" class="icon-share" v-if="link" target="_blank"></a> </div>
+                <div class="card-title h5">{{title}} <a :href="link" class="icon-share" v-if="link" target="_blank" rel="noopener"></a> </div>
                 <small class="card-subtitle text-gray">{{ summary }}</small>
             </div>
             <div class="card-body">
