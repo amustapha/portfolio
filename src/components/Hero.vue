@@ -14,11 +14,18 @@
             </p>
             <a href="https://docs.google.com/document/d/1xElMvl-O5xN6oA5U989hwJlEwEseLTA-QxpNFkxs73Q/edit?usp=sharing"
                target="_blank"
-               class="btn mt-2 text-uppercase text-bold">Checkout my resume</a>
+               class="btn mt-2 text-uppercase text-bold bg-dark btn-primary">Checkout my resume</a>
+
+            <a href="mailto:abdulhakeemmustapha@gmail.com?subject=I've a Project for you&body=Hi Abdul,"
+               class="btn mt-2 text-bold mx-2 text-uppercase" target="_blank">
+                Hire Me
+            </a>
             <div class="lnks">
                 <a href="https://blog.amustapha.com" class="text-light">My Blog</a>
-                <a href="mailto:abdulhakeemmustapha@gmail.com" class="text-light hide-md">abdulhakeemmustapha@gmail.com</a>
-                <a href="tel:+2347067577058" class="text-light hide-md">+234 706 757 7058</a>
+                <a href="mailto:abdulhakeemmustapha@gmail.com" class="text-light hide-md">
+                    abdulhakeemmustapha@gmail.com
+                </a>
+                <a href="tel:+2347067577058" class="text-light">+234 706 757 7058</a>
             </div>
         </div>
 
@@ -68,6 +75,7 @@
     .lnks a {
         padding: 16px;
     }
+
     .front {
         z-index: 20;
     }
