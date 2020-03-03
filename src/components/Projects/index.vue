@@ -18,8 +18,8 @@
                     summary="On demand food delivery service"
                     :icons="['icon-django', 'icon-vue-dot-js', 'icon-googlecloud']">
                 <p>
-                    Abdulhakeem was someone I hired to work under me at BriteCore. He is conscientious and intelligent,
-                    quicker solution that can be optimized later.
+                    Developed and managed a simple food ordering site for the Bayero University community keeping time
+                    to meaningful interaction very low.
 
                 </p>
             </single-project>
@@ -50,7 +50,8 @@
                     summary="Crowdfunding platform for agriculture"
                     :icons="['icon-django', 'icon-googlecloud', 'icon-bootstrap']">
                 <p>
-                    A crowd-funding platform for providing financing, technical support and agricultural extension services for rural
+                    A crowd-funding platform for providing financing, technical support and agricultural extension
+                    services for rural
                     farmers improving their yield and livelihood.
                 </p>
             </single-project>
