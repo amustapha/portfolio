@@ -28,7 +28,7 @@
     }
 </script>
 
-<style scoped>
+<style>
 
     .col {
         min-width: 340px;

@@ -158,6 +158,7 @@
     max-width: 1333px;
     display: block;
     margin-top: 64px;
+    padding: 1em;
     margin-bottom: 32px;
   }
 </style>
