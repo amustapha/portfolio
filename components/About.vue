@@ -11,7 +11,7 @@
             <p>
               If you need a scalable and light web application, I'm your guy. Send me an email at <a
               href="mailto:abdulhakeemmustapha@gmail.com" rel="noopener"
-              class="text-gray">abdulhakeemmustapha@gmail.com</a> or send me a whatsapp message on <a href="wa.me/+2347067577058" class="text-warning">+234-706-757-7058</a>
+              class="text-gray">abdulhakeemmustapha@gmail.com</a> or send me a whatsapp message on <a href="https://wa.me/+2347067577058" class="text-warning" rel="noopener">+234-706-757-7058</a>
             </p>
 
           </div>

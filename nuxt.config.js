@@ -5,6 +5,9 @@ export default {
   */
   head: {
     title: 'Abdulhakeem Mustapha',
+    htmlAttrs: {
+      lang: 'en-NG',
+    },
     meta: [
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1'},
@@ -24,7 +27,7 @@ export default {
   /*
   ** Customize the progress-bar color
   */
-  loading: {color: '#ccc'},
+  loading: {color: '#5755d9', text: 'bazinga'},
   /*
   ** Global CSS
   */
