@@ -4,20 +4,27 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Abdulhakeem Mustapha',
     meta: [
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1'},
-      {hid: 'description', name: 'description', content: process.env.npm_package_description || ''}
+      {hid: 'description', name: 'description', content: process.env.npm_package_description || ''},
+      {hid: 'author', name: 'author', content: process.env.author || ''},
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content: ['Abdulhakeem', 'Abdulhakeem Mustapha', 'Hooli', 'Hooli Consults', ' Hooli Technologies Nigeria Limited', 'OfflineFirst', 'CouchDB',
+          'Django Developer', 'Flask Developer', 'Python Developer', 'Software Engineer', 'Software Developer', 'amustapha', 'offline', 'pwa']
+      }
     ],
     link: [
-      {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
+      {rel: 'icon', type: 'image/x-icon', href: '/pic-favicon.jpg'}
     ]
   },
   /*
   ** Customize the progress-bar color
   */
-  loading: {color: '#fff'},
+  loading: {color: '#ccc'},
   /*
   ** Global CSS
   */

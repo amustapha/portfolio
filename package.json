@@ -1,14 +1,15 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "My porfolio site in nuxt",
+  "description": "Abdulhakeem Mustapha is a Creative and result-oriented Software Engineer with over 6 years of experience building amazing web and mobile applications, coordinating cross-functional teams and easily communicating complex technical details to non-technical stakeholders",
   "author": "Abdulhakeem Mustapha",
   "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "nuxt generate && surge dist https://amustapha.com"
   },
   "dependencies": {
     "nuxt": "^2.0.0",
