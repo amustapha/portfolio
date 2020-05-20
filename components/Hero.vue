@@ -13,7 +13,7 @@
         building and deploying mobile and web applications, I've become a real jack of all trade, master of pun.
         Not to brag, I consider myself to be among the top 1% of the best 1%.
       </p>
-      <p class="text-warning text-large text-bold">I'm looking for remote opportunities to join a diverse team building
+      <p class="text-warning text-large text-bold my-about">I'm looking for remote opportunities to join a diverse team building
         an awesome product. I'm open to fulltime, contract or freelance engagement.</p>
       <a href="https://docs.google.com/document/d/1xElMvl-O5xN6oA5U989hwJlEwEseLTA-QxpNFkxs73Q/edit?usp=sharing"
          target="_blank"
