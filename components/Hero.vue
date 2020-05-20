@@ -10,9 +10,10 @@
                 details to non-technical stakeholders.</p>
             <p class="my-about front mb-2 pb-2" v-else>
                 I'm a backend developer who is not scared of the frontend. With over 6 years experience in
-                building and deploying mobile and web applications, I've become a real jack of all trade, master of pun.<br/>
+                building and deploying mobile and web applications, I've become a real jack of all trade, master of pun.
                 Not to brag, I consider myself to be among the top 1% of the best 1%.
             </p>
+          <p class="text-warning">I'm looking for remote opportunities to join diverse teams building awesome products. I've a soft spot for startups.</p>
             <a href="https://docs.google.com/document/d/1xElMvl-O5xN6oA5U989hwJlEwEseLTA-QxpNFkxs73Q/edit?usp=sharing"
                target="_blank"
                rel="noreferrer"
