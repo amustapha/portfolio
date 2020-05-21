@@ -19,7 +19,7 @@
             <h5 class="text-bold text-uppercase">how you can reach me</h5>
             <ul>
               <li>abdulhakeemmustapha@gmail.com</li>
-              <li>+237 706 757 7058</li>
+              <li>+234 706 757 7058</li>
             </ul>
           </div>
 
