@@ -3,7 +3,7 @@
     <div class="hero-body text-center px-2 mx-2">
       <img src="my-pic-no-bg.webp" class="me" alt="Abdulhakeem Adetunji Mustapha"/>
       <h1 class="text-bold front">Abdulhakeem Adetunji Mustapha</h1>
-      <p class="my-about front mb-2 pb-2" v-if="show == 1">Creative and result-oriented Software Engineer with
+      <p class="my-about front mb-2 pb-2" v-if="show === 1">Creative and result-oriented Software Engineer with
         over 6 years of
         experience building amazing web and
         mobile applications, coordinating cross-functional teams and easily communicating complex technical
@@ -41,16 +41,7 @@
     name: "Hero",
     computed: {
       show: function () {
-        let current = window.localStorage.getItem('current')
-        if (current) {
-          current = parseInt(current)
-          current += 1
-          current %= 2
-        } else {
-          current = Math.ceil(Math.random() * 2)
-        }
-        window.localStorage.setItem('current', current)
-        return current
+        return Math.ceil(Math.random() * 2)
       }
     }
   }
