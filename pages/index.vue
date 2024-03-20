@@ -131,7 +131,7 @@
           {
             icon: 'icon-github',
             text: 'Github',
-            target: 'https://github.com/aamustapha'
+            target: 'https://github.com/amustapha'
           },
           {
             icon: 'icon-medium',
