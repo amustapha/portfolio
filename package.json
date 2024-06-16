@@ -12,7 +12,7 @@
     "deploy": "nuxt generate && surge dist https://amustapha.com"
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.17.3",
     "spectre.css": "^0.5.8"
   },
   "devDependencies": {}
